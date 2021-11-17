@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+.Sliders {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    color: rgb(102, 102, 102);
+    text-transform: uppercase;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3rem;
+  }
+  
+  .wrapper> label {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .wrapper> label > span {
+    font-size: x-large;
+    font-weight: 700;
+    line-height: 2rem;
+  }
